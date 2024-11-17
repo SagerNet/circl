@@ -3,7 +3,7 @@ package dsl
 import (
 	"fmt"
 
-	"github.com/cloudflare/circl/abe/cpabe/tkn20/internal/tkn"
+	"github.com/sagernet/circl/abe/cpabe/tkn20/internal/tkn"
 )
 
 var operators = map[string]int{

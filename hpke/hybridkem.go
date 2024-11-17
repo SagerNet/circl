@@ -10,7 +10,7 @@ package hpke
 import (
 	"crypto/rand"
 
-	"github.com/cloudflare/circl/kem"
+	"github.com/sagernet/circl/kem"
 )
 
 type hybridKEM struct {

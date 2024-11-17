@@ -3,7 +3,7 @@ package group
 import (
 	"math/big"
 
-	"github.com/cloudflare/circl/expander"
+	"github.com/sagernet/circl/expander"
 )
 
 // HashToField generates a set of elements {u1,..., uN} = Hash(b) where each

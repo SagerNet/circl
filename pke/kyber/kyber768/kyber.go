@@ -11,8 +11,8 @@ import (
 	cryptoRand "crypto/rand"
 	"io"
 
-	"github.com/cloudflare/circl/kem"
-	"github.com/cloudflare/circl/pke/kyber/kyber768/internal"
+	"github.com/sagernet/circl/kem"
+	"github.com/sagernet/circl/pke/kyber/kyber768/internal"
 )
 
 const (

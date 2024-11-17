@@ -4,10 +4,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/cloudflare/circl/dh/sidh/internal/common"
-	"github.com/cloudflare/circl/dh/sidh/internal/p434"
-	"github.com/cloudflare/circl/dh/sidh/internal/p503"
-	"github.com/cloudflare/circl/dh/sidh/internal/p751"
+	"github.com/sagernet/circl/dh/sidh/internal/common"
+	"github.com/sagernet/circl/dh/sidh/internal/p434"
+	"github.com/sagernet/circl/dh/sidh/internal/p503"
+	"github.com/sagernet/circl/dh/sidh/internal/p751"
 )
 
 // I keep it bool in order to be able to apply logical NOT.

@@ -1,4 +1,4 @@
-module github.com/cloudflare/circl
+module github.com/sagernet/circl
 
 go 1.20
 

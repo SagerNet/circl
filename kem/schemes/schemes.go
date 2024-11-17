@@ -19,16 +19,16 @@ package schemes
 import (
 	"strings"
 
-	"github.com/cloudflare/circl/hpke"
-	"github.com/cloudflare/circl/kem"
-	"github.com/cloudflare/circl/kem/frodo/frodo640shake"
-	"github.com/cloudflare/circl/kem/hybrid"
-	"github.com/cloudflare/circl/kem/kyber/kyber1024"
-	"github.com/cloudflare/circl/kem/kyber/kyber512"
-	"github.com/cloudflare/circl/kem/kyber/kyber768"
-	"github.com/cloudflare/circl/kem/mlkem/mlkem1024"
-	"github.com/cloudflare/circl/kem/mlkem/mlkem512"
-	"github.com/cloudflare/circl/kem/mlkem/mlkem768"
+	"github.com/sagernet/circl/hpke"
+	"github.com/sagernet/circl/kem"
+	"github.com/sagernet/circl/kem/frodo/frodo640shake"
+	"github.com/sagernet/circl/kem/hybrid"
+	"github.com/sagernet/circl/kem/kyber/kyber1024"
+	"github.com/sagernet/circl/kem/kyber/kyber512"
+	"github.com/sagernet/circl/kem/kyber/kyber768"
+	"github.com/sagernet/circl/kem/mlkem/mlkem1024"
+	"github.com/sagernet/circl/kem/mlkem/mlkem512"
+	"github.com/sagernet/circl/kem/mlkem/mlkem768"
 )
 
 var allSchemes = [...]kem.Scheme{

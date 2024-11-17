@@ -23,14 +23,14 @@ import (
 	cryptoRand "crypto/rand"
 {{- end }}
 
-	"github.com/cloudflare/circl/sign"
+	"github.com/sagernet/circl/sign"
 
 {{- if .NIST }}
-	"github.com/cloudflare/circl/sign/mldsa/{{.Pkg}}/internal"
+	"github.com/sagernet/circl/sign/mldsa/{{.Pkg}}/internal"
 {{- else }}
-	"github.com/cloudflare/circl/sign/dilithium/{{.Pkg}}/internal"
+	"github.com/sagernet/circl/sign/dilithium/{{.Pkg}}/internal"
 {{- end }}
-	common "github.com/cloudflare/circl/sign/internal/dilithium"
+	common "github.com/sagernet/circl/sign/internal/dilithium"
 )
 
 const (

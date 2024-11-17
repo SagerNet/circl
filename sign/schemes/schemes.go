@@ -11,18 +11,18 @@ package schemes
 import (
 	"strings"
 
-	"github.com/cloudflare/circl/sign"
-	"github.com/cloudflare/circl/sign/ed25519"
-	"github.com/cloudflare/circl/sign/ed448"
-	"github.com/cloudflare/circl/sign/eddilithium2"
-	"github.com/cloudflare/circl/sign/eddilithium3"
+	"github.com/sagernet/circl/sign"
+	"github.com/sagernet/circl/sign/ed25519"
+	"github.com/sagernet/circl/sign/ed448"
+	"github.com/sagernet/circl/sign/eddilithium2"
+	"github.com/sagernet/circl/sign/eddilithium3"
 
-	dilithium2 "github.com/cloudflare/circl/sign/dilithium/mode2"
-	dilithium3 "github.com/cloudflare/circl/sign/dilithium/mode3"
-	dilithium5 "github.com/cloudflare/circl/sign/dilithium/mode5"
-	"github.com/cloudflare/circl/sign/mldsa/mldsa44"
-	"github.com/cloudflare/circl/sign/mldsa/mldsa65"
-	"github.com/cloudflare/circl/sign/mldsa/mldsa87"
+	dilithium2 "github.com/sagernet/circl/sign/dilithium/mode2"
+	dilithium3 "github.com/sagernet/circl/sign/dilithium/mode3"
+	dilithium5 "github.com/sagernet/circl/sign/dilithium/mode5"
+	"github.com/sagernet/circl/sign/mldsa/mldsa44"
+	"github.com/sagernet/circl/sign/mldsa/mldsa65"
+	"github.com/sagernet/circl/sign/mldsa/mldsa87"
 )
 
 var allSchemes = [...]sign.Scheme{

@@ -11,9 +11,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/cloudflare/circl/sign"
-	"github.com/cloudflare/circl/sign/dilithium/mode2/internal"
-	common "github.com/cloudflare/circl/sign/internal/dilithium"
+	"github.com/sagernet/circl/sign"
+	"github.com/sagernet/circl/sign/dilithium/mode2/internal"
+	common "github.com/sagernet/circl/sign/internal/dilithium"
 )
 
 const (

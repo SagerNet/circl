@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"math/bits"
 
-	fp "github.com/cloudflare/circl/math/fp25519"
+	fp "github.com/sagernet/circl/math/fp25519"
 )
 
 func doubleGeneric(x, z *fp.Elt) {

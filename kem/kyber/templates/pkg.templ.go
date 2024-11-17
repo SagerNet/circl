@@ -20,9 +20,9 @@ import (
 	"crypto/subtle"
 	"io"
 
-	"github.com/cloudflare/circl/internal/sha3"
-	"github.com/cloudflare/circl/kem"
-	cpapke "github.com/cloudflare/circl/pke/kyber/{{.PkePkg}}"
+	"github.com/sagernet/circl/internal/sha3"
+	"github.com/sagernet/circl/kem"
+	cpapke "github.com/sagernet/circl/pke/kyber/{{.PkePkg}}"
 	cryptoRand "crypto/rand"
 )
 

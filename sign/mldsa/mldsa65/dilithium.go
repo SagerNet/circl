@@ -9,9 +9,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/cloudflare/circl/sign"
-	common "github.com/cloudflare/circl/sign/internal/dilithium"
-	"github.com/cloudflare/circl/sign/mldsa/mldsa65/internal"
+	"github.com/sagernet/circl/sign"
+	common "github.com/sagernet/circl/sign/internal/dilithium"
+	"github.com/sagernet/circl/sign/mldsa/mldsa65/internal"
 )
 
 const (

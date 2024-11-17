@@ -3,7 +3,7 @@
 package internal
 
 import (
-	common "github.com/cloudflare/circl/sign/internal/dilithium"
+	common "github.com/sagernet/circl/sign/internal/dilithium"
 )
 
 // A k by l matrix of polynomials.

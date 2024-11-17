@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cloudflare/circl/kem"
+	"github.com/sagernet/circl/kem"
 )
 
 type shortKEM struct {

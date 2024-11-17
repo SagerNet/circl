@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"crypto/subtle"
 
-	"github.com/cloudflare/circl/group"
-	"github.com/cloudflare/circl/zk/dleq"
+	"github.com/sagernet/circl/group"
+	"github.com/sagernet/circl/zk/dleq"
 )
 
 type server struct {

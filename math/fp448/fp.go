@@ -4,7 +4,7 @@ package fp448
 import (
 	"errors"
 
-	"github.com/cloudflare/circl/internal/conv"
+	"github.com/sagernet/circl/internal/conv"
 )
 
 // Size in bytes of an element.
